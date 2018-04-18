@@ -1,0 +1,19 @@
+uuid: eb397e1d-aede-4a0a-ba66-b501e3908f4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_plain
+    - node.type.drupal_fields_learning
+id: node.drupal_fields_learning.field_text_plain
+field_name: field_text_plain
+entity_type: node
+bundle: drupal_fields_learning
+label: 'text plain'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

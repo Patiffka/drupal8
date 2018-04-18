@@ -1,0 +1,22 @@
+uuid: 4c19a4e8-32a0-46bf-8f26-83fddb8da636
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_notes
+    - field.storage.block_content.field_text
+  module:
+    - text
+id: block_content.article_notes.field_text
+field_name: field_text
+entity_type: block_content
+bundle: article_notes
+label: text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

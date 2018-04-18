@@ -1,0 +1,14 @@
+uuid: a024f254-bac4-45c7-97a4-fd6f8f16a495
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - yulyna168@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

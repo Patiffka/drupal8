@@ -1,0 +1,21 @@
+uuid: 988b9334-5ace-4907-b14d-e4a3913a7919
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.drupal_fields_learning
+  module:
+    - datetime
+id: node.drupal_fields_learning.field_date
+field_name: field_date
+entity_type: node
+bundle: drupal_fields_learning
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: f16ab597-d0dd-4b6d-b3a2-f959d5f4e775
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_file
+    - field.storage.block_content.field_text
+  module:
+    - text
+id: block_content.pdf_file.field_text
+field_name: field_text
+entity_type: block_content
+bundle: pdf_file
+label: text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

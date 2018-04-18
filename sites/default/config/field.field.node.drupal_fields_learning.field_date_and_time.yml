@@ -1,0 +1,21 @@
+uuid: ff615f3d-9202-454a-826a-ddc3d646edcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_and_time
+    - node.type.drupal_fields_learning
+  module:
+    - datetime
+id: node.drupal_fields_learning.field_date_and_time
+field_name: field_date_and_time
+entity_type: node
+bundle: drupal_fields_learning
+label: 'date and time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

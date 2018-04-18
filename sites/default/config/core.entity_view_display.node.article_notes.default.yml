@@ -1,0 +1,34 @@
+uuid: ac2a7ba6-7727-4f2d-bf04-67bd0beb8651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article_notes.field_phone
+    - field.field.node.article_notes.field_text
+    - node.type.article_notes
+  module:
+    - text
+    - user
+id: node.article_notes.default
+targetEntityType: node
+bundle: article_notes
+mode: default
+content:
+  field_phone:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_text:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

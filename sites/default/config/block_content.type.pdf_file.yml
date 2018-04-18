@@ -1,0 +1,8 @@
+uuid: 4bb573de-779f-47fa-8903-d80a154fc383
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_file
+label: 'PDF file'
+revision: 0
+description: 'PDF file block'

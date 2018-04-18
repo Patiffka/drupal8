@@ -1,0 +1,30 @@
+uuid: 455b03c4-f1c4-400a-ab70-2aef3c19801c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_notes
+    - field.field.block_content.article_notes.field_phone
+    - field.field.block_content.article_notes.field_text
+  module:
+    - text
+id: block_content.article_notes.default
+targetEntityType: block_content
+bundle: article_notes
+mode: default
+content:
+  field_phone:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_text:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

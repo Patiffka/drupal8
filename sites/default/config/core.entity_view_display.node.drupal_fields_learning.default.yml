@@ -1,0 +1,115 @@
+uuid: deded20c-a0ca-42a7-a657-e9fa295a941f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drupal_fields_learning.field_date
+    - field.field.node.drupal_fields_learning.field_date_and_time
+    - field.field.node.drupal_fields_learning.field_email
+    - field.field.node.drupal_fields_learning.field_image
+    - field.field.node.drupal_fields_learning.field_link
+    - field.field.node.drupal_fields_learning.field_list_integer
+    - field.field.node.drupal_fields_learning.field_list_text
+    - field.field.node.drupal_fields_learning.field_number
+    - field.field.node.drupal_fields_learning.field_text_plain
+    - field.field.node.drupal_fields_learning.field_text_plain_long
+    - node.type.drupal_fields_learning
+  module:
+    - datetime
+    - image
+    - link
+    - options
+    - user
+id: node.drupal_fields_learning.default
+targetEntityType: node
+bundle: drupal_fields_learning
+mode: default
+content:
+  field_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_and_time:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_email:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_image:
+    weight: 109
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link:
+    weight: 105
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_list_integer:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_list_text:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_number:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_text_plain:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_text_plain_long:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

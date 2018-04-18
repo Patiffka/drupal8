@@ -1,0 +1,23 @@
+uuid: 4c233477-6ab4-4d03-a38d-9be382ce76aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+id: block_content.field_file
+field_name: field_file
+entity_type: block_content
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

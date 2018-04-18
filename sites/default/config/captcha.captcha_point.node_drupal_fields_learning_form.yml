@@ -1,0 +1,7 @@
+uuid: 06f8df5c-54fb-4a93-98ba-c7bf63a1eed9
+langcode: en
+status: false
+dependencies: {  }
+formId: node_drupal_fields_learning_form
+captchaType: default
+label: null

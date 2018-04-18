@@ -1,0 +1,21 @@
+uuid: d038e72a-14f8-4aa6-9c9d-d291c0a6e566
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_integer
+    - node.type.drupal_fields_learning
+  module:
+    - options
+id: node.drupal_fields_learning.field_list_integer
+field_name: field_list_integer
+entity_type: node
+bundle: drupal_fields_learning
+label: 'list integer'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

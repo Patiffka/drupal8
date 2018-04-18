@@ -1,0 +1,20 @@
+uuid: 93449373-a348-4880-86b3-b1f27c05e5a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article_notes.field_phone
+    - node.type.article_notes
+  module:
+    - user
+id: node.article_notes.teaser
+targetEntityType: node
+bundle: article_notes
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_phone: true

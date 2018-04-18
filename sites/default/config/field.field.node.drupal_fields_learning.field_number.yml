@@ -1,0 +1,23 @@
+uuid: a1102f8f-21b7-43a9-9909-35607f4583d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.drupal_fields_learning
+id: node.drupal_fields_learning.field_number
+field_name: field_number
+entity_type: node
+bundle: drupal_fields_learning
+label: number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 99
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,18 @@
+uuid: 514cc6d6-a157-4aef-aa20-ecc2863721da
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Drupal Fields Learning'
+type: drupal_fields_learning
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

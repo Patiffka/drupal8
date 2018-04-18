@@ -1,0 +1,25 @@
+uuid: 40b01040-540d-4b18-b118-6952281d836b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cab3d962-a768-4a3b-b891-41498d97a9b5'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: madebypatiffka
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:cab3d962-a768-4a3b-b891-41498d97a9b5'
+settings:
+  id: 'block_content:cab3d962-a768-4a3b-b891-41498d97a9b5'
+  label: 'Made by Patiffka'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

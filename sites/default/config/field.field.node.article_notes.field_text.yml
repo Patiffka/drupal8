@@ -1,0 +1,21 @@
+uuid: 04e9cf6a-c56b-437c-bd81-877864e67b0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text
+    - node.type.article_notes
+  module:
+    - text
+id: node.article_notes.field_text
+field_name: field_text
+entity_type: node
+bundle: article_notes
+label: text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
